@@ -53,8 +53,8 @@ Statistiken|bild|bild|
 Die eingerahmten "Schnelllinks" zu den wichtigsten Funktionen, die aus je einem Buchstaben bestehen, werden in - hoffentlich selbsterklärende - Symbole umgewandelt und dadurch auch vergrößert. Diese tauchen dann sogar auf der Weltkarte bei einem Klick auf eine eigene Provinz auf.
 Seite | vorher | nachher |
 |---|---|---|
-Navigation|bild|![Ergänzung Provinzmenü](!images/provinzmenu.png)|
-Weltkarte|bild|![Effekt Weltkarte](!images/weltkarte.png)|
+Navigation| ![Provinzmenu regulär](images/provinzmenu_normal.png) | ![Ergänzung Provinzmenü](images/provinzmenu.png) |
+Weltkarte| ![Weltkarte normal](images/weltkarte_normal.png) | ![Effekt Weltkarte](images/weltkarte.png) |
 
 ## Links im Hauptfenster
 Auf nahezu allen Unterseiten von VZ findet sich eine Vielzahl an einfachen Links, meistens mehrere eng beeinander in Tabellen. Das macht eine treffsichere Bedienung auf Touchpads bzw. mit den Fingern sehr schwierig. 
@@ -62,9 +62,11 @@ Auf nahezu allen Unterseiten von VZ findet sich eine Vielzahl an einfachen Links
 Das "userContent.css" wandelt die Links an sehr vielen Stellen, wo es wirklich relevant ist, in "quasi"-Schaltflächen mit einem vergrößerten Klickbereich um. Hier allerdings ohne zusätzliche Rahmen, weil diese aufgrund ihrer schieren Zahl eher störend als hilfreich wären. Diese Vergrößerung hat jedoch etwas höhere Textzeilen zur Folge, es muss also mehr gescrollt werden. An einigen Stellen sind die Links theoretisch kaum sinnvoll, ich könnte technisch gesehen jedoch nur mit sehr großem Aufwand Ausnahmen erzwingen.
 Seite | vorher | nachher | Kommentar
 |---|---|---|---|
-Gebäudeinfo|bild|bild|
-Routenübersicht|bild|bild|
+Gebäudeinfo| ![Gebäudeinfo Liste normal](images/table_link_normal.png) | ![Gebäudeinfo Liste modifiziert](images/table_link_gestreckt.png) |
+Routenübersicht| ![Routenübersicht unmodifiziert](images/routen_normal.png) | ![Routenübersicht gestreckt](images/routen_gestreckt.png) |
 Gebäudedetail|bild|bild| Hier ist der Nachteil in der Terrainliste bei Effizienz klar sichtbar
+Handelsübersicht|bild|bild
+Handelsdetails f. Rohstoff|bild|bild
 
 ## In Arbeit: Routenübersicht
 Ich suche derzeit passende Symbole für die Aktionen usw. in der Routenübersicht.

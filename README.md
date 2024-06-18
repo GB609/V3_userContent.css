@@ -12,7 +12,7 @@ Man kann den Firefox so einrichten, dass zusätzliche Style-Informationen für W
 3. Die Eisntellung mit dem Namen "layout.css.moz-document.content.enabled" suchen/anlegen als boolean mit dem Wert "true"
 4. Dann die Adresse "about:profiles" besuchen und bei "Wurzelordner" auf "Ordner öffnen" klicken. Es öffnet sich ein Fenster im Dateimanager.
 5. In dem neuen Fenster den Unterordner "chrome" anlegen (falls nicht da) und dann öffnen.
-6. Die [userContent.css](../raw/main/userContent.css) herunterladen.
+6. Die [userContent.css](./userContent.css) herunterladen.
 7. Die heruntergeladene Datei in den zuvor geöffneten Unterorder "chrome" verschieben oder kopieren.
 8. Firefox neu starten. Wenn alles geklappt hat, sind alle Änderungen jetzt direkt beim Einloggen in VZ3 da.
 9. Bei weiteren Anpassungen wird die Datei "userContent.css" direkt mit einem einfachen Texteditor bearbeitet und gespeichert. Jetzt genügt es auch, alle Tabs mit VZ3 zu schließen und neu zu öffnen um die Änderungen zu übernehmen.
@@ -23,11 +23,11 @@ Ich habe mit [Stylus](https://addons.mozilla.org/de/firefox/addon/styl-us/) auf 
 Zuerst muss das Addon Stylus in Firefox installiert werden. Entweder über den Link im Absatz über diesem. Oder aber über eine entsprechende Suche bei einer Suchmaschine eigener Wahl, solange das Ergebnis dann auf die Webseite addons.mozilla.org verweist. Bitte stellt sicher, dass ihr auf keiner anderen Seite landet und damit fakes installieren würdet.
 
 Dann gibt es 2 Möglichkeiten, den eigentlichen Code zu installieren:
-1. Klickt auf den folgenden Link und erlaubt Stylus die Installation: [v3-style.user.css](../raw/main/v3-style.user.css). Die Datei heißt anders, enthält aber den gleichen Text. Der Name dient nur dazu, dass sie von Stylus erkannt wird.
+1. Klickt auf den folgenden Link und erlaubt Stylus die Installation: [v3-style.user.css](./v3-style.user.css). Die Datei heißt anders, enthält aber den gleichen Text. Der Name dient nur dazu, dass sie von Stylus erkannt wird.
 2. Danach kann sie bei Bedarf lokal bearbeitet werden. Empfehlenswert bei eigener Bearbeitung ist es, die automatische Suche nach skript updates im plugin auszuschalten. Ansonsten könnte eine neue Version von mir alle lokalen Änderungen überschreiben.
    
 ODER:
-1. Die [userContent.css](../raw/main/userContent.css) herunterladen und auf dem Smartphone mit einem Textbetrachter öffnen.
+1. Die [userContent.css](./userContent.css) herunterladen und auf dem Smartphone mit einem Textbetrachter öffnen.
 2. Alles markieren und kopieren.
 3. V3 im Browser öffnen
 4. Das Addon im Firefox Menü bei "..." -> Addons -> Stylus auswählen

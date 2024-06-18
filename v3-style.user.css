@@ -5,6 +5,20 @@
 ==/UserStyle== */
 
 /*
+CREDITS/THANKS for ICONS/IMAGES used:
+- "Info" from Delapouite @ https://game-icons.net. 
+  URL: https://game-icons.net/1x1/delapouite/info.html, License: http://creativecommons.org/licenses/by/3.0/
+- "Newspaper" from Delapouite @ https://game-icons.net. 
+  URL: https://game-icons.net/1x1/delapouite/newspaper.html, License: http://creativecommons.org/licenses/by/3.0/
+- "Cardboard box closed" from Delapouite @ https://game-icons.net. 
+  URL: https://game-icons.net/1x1/delapouite/cardboard-box-closed.html, License: http://creativecommons.org/licenses/by/3.0/
+- "Village" from Delapouite @ https://game-icons.net. 
+  URL: https://game-icons.net/1x1/delapouite/village.html, License: http://creativecommons.org/licenses/by/3.0/
+- "Duration" from Delapouite @ https://game-icons.net. 
+  URL: https://game-icons.net/1x1/delapouite/duration.html, License: http://creativecommons.org/licenses/by/3.0/
+*/
+
+/*
 Dieser Block (bis zu "ENDE:PROVINZ") ändert die Klickbereiche in der klassischen tabellarischen Provinzansicht.
 Er muss am Stück behalten oder entfernt werden.
 */
@@ -148,7 +162,7 @@ Dieser Block muss wenn nicht gewünscht ganz entfernt werden.
 /*
 Die folgende Regel vergrößert die Klickfläche des kleinen '+' beim Warentransfer von Handelsrouten.
 */
-	tbody#transferBody > a[href^="transfer.php"]{
+	tbody#transferBody a[href^="transfer.php"]{
 		display: inline-block !important;
 		/* 
 		'padding: h b' bestimmt die Höhe und Breite. 

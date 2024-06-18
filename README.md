@@ -53,8 +53,8 @@ Statistiken|bild|bild|
 Die eingerahmten "Schnelllinks" zu den wichtigsten Funktionen, die aus je einem Buchstaben bestehen, werden in - hoffentlich selbsterklärende - Symbole umgewandelt und dadurch auch vergrößert. Diese tauchen dann sogar auf der Weltkarte bei einem Klick auf eine eigene Provinz auf.
 Seite | vorher | nachher |
 |---|---|---|
-Navigation|bild|bild|
-Weltkarte|bild|bild|
+Navigation|bild|![Ergänzung Provinzmenü](!images/provinzmenu.png)|
+Weltkarte|bild|![Effekt Weltkarte](!images/weltkarte.png)|
 
 ## Links im Hauptfenster
 Auf nahezu allen Unterseiten von VZ findet sich eine Vielzahl an einfachen Links, meistens mehrere eng beeinander in Tabellen. Das macht eine treffsichere Bedienung auf Touchpads bzw. mit den Fingern sehr schwierig. 

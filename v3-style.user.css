@@ -16,8 +16,10 @@ CREDITS/THANKS for ICONS/IMAGES used:
   URL: https://game-icons.net/1x1/delapouite/village.html, License: http://creativecommons.org/licenses/by/3.0/
 - "Duration" from Delapouite @ https://game-icons.net. 
   URL: https://game-icons.net/1x1/delapouite/duration.html, License: http://creativecommons.org/licenses/by/3.0/
-- "Trash Can"  from Delapouite @ https://game-icons.net. 
+- "Trash Can" from Delapouite @ https://game-icons.net. 
   URL: https://game-icons.net/1x1/delapouite/trash-can.html, License: http://creativecommons.org/licenses/by/3.0/
+- "Entry door" from Delapouite @ https://game-icons.net. 
+  URL: https://game-icons.net/1x1/delapouite/entry-door.html, License: http://creativecommons.org/licenses/by/3.0/
 */
 
 /*
@@ -162,12 +164,24 @@ Dieser Block muss wenn nicht gewünscht ganz entfernt werden.
 /*
 Wandelt bei Routen verschiedene Links für "Aktionen" und "Bewegen" in Bilder um. Spart dadurch Platz.
 */
-    td > a[href^="routenmenu.php?art=z&deleteid"]{
-        color:transparent !important;
-        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20style%3D%22height%3A%20512px%3B%20width%3A%20512px%3B%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%3E%3Cg%20class%3D%22%22%20style%3D%22%22%20transform%3D%22translate(0%2C0)%22%3E%3Cpath%20d%3D%22M199%20103v50h-78v30h270v-30h-78v-50H199zm18%2018h78v32h-78v-32zm-79.002%2080l30.106%20286h175.794l30.104-286H137.998zm62.338%2013.38l.64%208.98%2016%20224%20.643%208.976-17.956%201.283-.64-8.98-16-224-.643-8.976%2017.956-1.283zm111.328%200l17.955%201.284-.643%208.977-16%20224-.64%208.98-17.956-1.284.643-8.977%2016-224%20.64-8.98zM247%20215h18v242h-18V215z%22%20fill%3D%22%23fff%22%20fill-opacity%3D%221%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+    /* Buttonform und Rahmen der links, Schrift ausblenden */
+    td > a[href^="routenmenu.php?art=z&verlassen"],
+    td > a[href^="routenmenu.php?art=z&deleteid"],
+    td > a[href^="aufstellen.php?art=m&deleteid"]{
+        display:inline-block; color:transparent !important;    
         border: 1px solid white; border-radius:5px;
         width:30px !important; height:30px !important; padding:0px !important;
-        display:inline-block;
+    }
+    
+    /*** Bilder ***/
+    /* Provinz verlassen */
+    td > a[href^="routenmenu.php?art=z&verlassen"]{
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20style%3D%22height%3A%20512px%3B%20width%3A%20512px%3B%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%3E%3Cg%20class%3D%22%22%20style%3D%22%22%20transform%3D%22translate(0%2C0)%22%3E%3Cpath%20d%3D%22M217%2028.098v455.804l142-42.597V70.697zM119%2055v160h18V73h62V55zm257.98.03l.02%202.275V87h16V55zM377%20105v16h16v-16zm0%2034v236h16V139zm-276.564%2058.727L42.162%20256l58.274%2058.273V279h96v-46h-96zM244%20232c6.627%200%2012%2010.745%2012%2024s-5.373%2024-12%2024-12-10.745-12-24%205.373-24%2012-24zm-125%2065v151h18V297zm258%2096v14h16v-14zm0%2032v23h16v-23zM32%20471v18h167v-18zm290.652%200l-60%2018H480v-18z%22%20fill%3D%22%23fff%22%20fill-opacity%3D%221%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E"); 
+    }
+    /* Route löschen */
+    td > a[href^="routenmenu.php?art=z&deleteid"],
+    td > a[href^="aufstellen.php?art=m&deleteid"]{
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20style%3D%22height%3A%20512px%3B%20width%3A%20512px%3B%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%3E%3Cg%20class%3D%22%22%20style%3D%22%22%20transform%3D%22translate(0%2C0)%22%3E%3Cpath%20d%3D%22M199%20103v50h-78v30h270v-30h-78v-50H199zm18%2018h78v32h-78v-32zm-79.002%2080l30.106%20286h175.794l30.104-286H137.998zm62.338%2013.38l.64%208.98%2016%20224%20.643%208.976-17.956%201.283-.64-8.98-16-224-.643-8.976%2017.956-1.283zm111.328%200l17.955%201.284-.643%208.977-16%20224-.64%208.98-17.956-1.284.643-8.977%2016-224%20.64-8.98zM247%20215h18v242h-18V215z%22%20fill%3D%22%23fff%22%20fill-opacity%3D%221%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E");
     }
 /* ENDE: ROUTEN-ICONS */
 }

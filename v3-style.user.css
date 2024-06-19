@@ -145,7 +145,7 @@ Dieser Block muss wenn nicht gewünscht ganz entfernt werden.
         padding:0px;
     }
     
-    td > a:not([href*="ElementsBase"]):not([target]){
+    td > a:not([href*="ElementsBase"]):not([target]):not([name="schreiben"]){
         /*
         'padding: h b'
         Bestimmt Aufschlag auf Höhe (h) über UND unter Text, sowie Breite (b) rechts UND links von Text.

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         VZ3 - UI Verbesserung
 @namespace    gb.vortex.zone
-@version      1.0.4
+@version      1.0.5
 ==/UserStyle== */
 
 /*
@@ -165,10 +165,14 @@ Dieser Block muss wenn nicht gewünscht ganz entfernt werden.
 		display: inline-block !important;
 	}
 /*ENDE:Hauptfenster-Links*/
+}
+
 
 /*
 Wandelt bei Routen verschiedene Links für "Aktionen" und "Bewegen" in Bilder um. Spart dadurch Platz.
 */
+@-moz-document regexp(".*v3\\.verbranntezone\\.ch/routenmenu\\.php.*"),
+               regexp(".*v3\\.verbranntezone\\.ch/aufstellen\\.php.*") {
     /* Buttonform und Rahmen der links, Schrift ausblenden */
     td > a[href^="routenmenu.php?art=z&verlassen"],
     td > a[href^="routenmenu.php?art=m&verlassen"],

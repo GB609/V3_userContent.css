@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         VZ3 - UI Verbesserung
 @namespace    gb.vortex.zone
-@version      1.0.5
+@version      1.0.6
 ==/UserStyle== */
 
 /*
@@ -210,11 +210,17 @@ Wandelt bei Routen verschiedene Links für "Aktionen" und "Bewegen" in Bilder um
 }
 
 /* Wird gebraucht für korrekte Platzierung der Routenmenu-Symbole */
-@-moz-document regexp(".*v3\\.verbranntezone\\.ch/routenmenu\\.php.*"){
+@-moz-document url("https://v3.verbranntezone.ch/routenmenu.php"),
+               url("https://v3.verbranntezone.ch/routenmenu.php?art=z"),
+               url("https://v3.verbranntezone.ch/routenmenu.php?art=m"){
     td:nth-child(9) > br,
     td:nth-child(10) > br {
         display: none !important;
     }
+}
+
+@-moz-document regexp(".*v3\\.verbranntezone\\.ch/routenmenu\\.php\\?art=.&.*"){
+    td > a + br { display:none !important; }
 }
 
 /* Wird gebraucht für korrekte Platzierung der Routenmenu-Symbole */

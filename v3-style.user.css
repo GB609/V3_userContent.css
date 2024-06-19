@@ -242,7 +242,7 @@ Wandelt bei Routen verschiedene Links für "Aktionen" und "Bewegen" in Bilder um
 
 @-moz-document regexp(".*v3\\.verbranntezone\\.ch/routenmenu\\.php\\?art=.&.*"){
     /* Sorgt dafür, dass die Schnell-Links in der Routenansicht oben nicht auch zu Icons werden. */
-    body > div > table tr:first-child a {
+    body > div > table tr:first-child > td > a[href] {
         background-image: none !important;
         width: auto !important;
         height: auto !important;

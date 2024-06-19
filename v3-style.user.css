@@ -207,7 +207,8 @@ Wandelt bei Routen verschiedene Links für "Aktionen" und "Bewegen" in Bilder um
 
 /* Wird gebraucht für korrekte Platzierung der Routenmenu-Symbole */
 @-moz-document regexp(".*v3\\.verbranntezone\\.ch/routenmenu\\.php.*"){
-    td:nth-child(9) > br {
+    td:nth-child(9) > br,
+    td:nth-child(10) > br {
         display: none !important;
     }
 }
